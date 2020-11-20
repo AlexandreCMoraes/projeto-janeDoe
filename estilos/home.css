@@ -1,0 +1,76 @@
+/* FONTE PARA P/ SITE */
+
+@font-face {
+        font-family: 'Raleway';
+        src: url(../_fonts/Raleway-VariableFont_wght.ttf);
+}
+
+/* para o site todo */
+
+body {
+        font-family: 'Raleway', sans-serif;
+        background-color: rgba(251, 209, 209, 0.377);
+        margin: 0px;
+}
+
+/* cabeçalho */
+
+header#cabecalho {
+        display: flex;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+}
+
+h1#titulo {
+        margin-left: 10px;
+        margin-bottom: 5px;
+        margin-top: 6px;
+}
+
+/* Formatação do menu e listas */
+
+nav#menu {
+        position: absolute;
+        right: 0;
+}
+
+nav#menu ul {
+        /* position: absolute; */
+        top: 5px;
+        left: 75%;
+}
+
+nav#menu li {
+        display: inline-block;
+        padding-right: 10px;
+        font-weight: bold;
+}
+
+nav#menu a {
+        text-decoration: none;
+        color: rgb(110, 110, 110);
+}
+
+nav#menu li:hover {
+        background-color: rgba(36, 35, 35, 0.589);
+        transition: 1.5s;
+}
+
+nav#menu a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+}
+
+/* RODAPES */
+
+footer#rodape {
+        margin: auto;
+        bottom: 0;
+        width: 100%;
+}
+
+footer#rodape p {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}

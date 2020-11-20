@@ -1,0 +1,12 @@
+div#musicas {
+        margin-left: 5%;
+}
+
+div#musicas div#video2 li {
+        list-style-type: none;
+}
+
+div#video2 ul {
+        margin-left: -40px;
+        line-height: 2;
+}

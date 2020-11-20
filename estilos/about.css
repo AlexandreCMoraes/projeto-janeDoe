@@ -1,0 +1,17 @@
+
+
+div#sobre img#logoSob {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+div#sobre {
+        text-align: center;
+}
+
+div#imagemSobre {
+        display: flex;
+        justify-content: center;
+}
